@@ -1,0 +1,72 @@
+.header-wrapper {
+    width: 100%;
+    height: auto;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    font-family: "BebasNeue";
+    background-color: #000000;
+}
+
+.div-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.logo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: #37bcf9;
+}
+
+.menu-wrapper {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    background-color: transparent;
+}
+
+.menu-wrapper .ul-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.menu-wrapper .ul-wrapper .list-item {
+    margin: 3%;
+}
+
+.menu-wrapper .ul-wrapper .list-item a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 24px;
+    transition: all 200ms;
+    -webkit-transition: all 200ms;
+    -moz-transition: all 200ms;
+    -ms-transition: all 200ms;
+    -o-transition: all 200ms;
+}
+
+.menu-wrapper .ul-wrapper .list-item a:hover {
+    color: #37bcf9;
+}
+
+.menu-wrapper .ul-wrapper .list-item:hover {
+    transform: scale(1.2, 1.2);
+    -webkit-transform: scale(1.2, 1.2);
+    -moz-transform: scale(1.2, 1.2);
+    -ms-transform: scale(1.2, 1.2);
+    -o-transform: scale(1.2, 1.2);
+}

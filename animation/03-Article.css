@@ -1,0 +1,17 @@
+@keyframes blink {
+    0% {
+        border: 10px solid #37bcf9;
+    }
+    25% {
+        border: 10px solid green;
+    }
+    50% {
+        border: 10px solid yellow;
+    }
+    75% {
+        border: 10px solid purple;
+    }
+    100% {
+        border: 10px solid #37bcf9;
+    }
+}
