@@ -63,6 +63,7 @@
     }
     .article-main.article-bottom {
         line-height: 100px;
+        height: 10%;
     }
 }
 
